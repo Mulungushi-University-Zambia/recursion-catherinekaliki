@@ -1,0 +1,11 @@
+START 
+INPUT n
+SET a = 0
+SET b = 1
+FOR i = 1 TO n
+  PRINT a
+  temp = a + b
+  a = b
+  b = temp
+END FOR 
+END
